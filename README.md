@@ -1,6 +1,16 @@
 # Frontend Board Presentation about React's new Concurent Mode
 Check the docs - [Introducing Concurrent Mode (Experimental)](https://reactjs.org/docs/concurrent-mode-intro.html)
 
+## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
 ## How to enable Concurent Mode?
 Install react and react-dom experimental versions: `yarn add react@experimental react-dom@experimental`
 ```ReactDOM.createRoot(rootNode).render(<App />);```
@@ -148,16 +158,3 @@ Concurrent mode lets us yield to network responses and process them earlier than
 
 Great example and explanation in the docs:
 https://reactjs.org/docs/concurrent-mode-patterns.html#deferring-a-value
-
-
-## Available Scripts
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
