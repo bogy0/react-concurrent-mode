@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.bx--tile {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.bx--tile.card {
+  display: flex;
+  align-items: center;
+}
+
+.card__text {
+  margin-left: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*.App .bx--btn--primary {*/
+/*    position: fixed;*/
+/*    top: 10px;*/
+/*    right: 10px;*/
+/*}*/
+
+.error-message {
+    color: #da1e28;
+}
+
+.bx--list--unordered {
+  padding: 0 20px;
+}
+
+.bx--btn--primary {
+  margin-right: 20px;
+}
+
+.bx--list--ordered {
+  margin-left: 1rem;
+}
+
+.slide-num {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.slide-controlls {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.deferred {
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: .2; }
+  50% { opacity: 1; }
+  100% { opacity: .2; }
+}
