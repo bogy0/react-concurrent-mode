@@ -6,7 +6,7 @@
     "carbon-components": "^10.7.4",
     "carbon-components-react": "^7.7.4",
     "carbon-icons": "^7.0.7",
-    "react": "^0.0.0-experimental-38dd17ab9",
+    "react": "^0.14.0",
     "react-dom": "^0.0.0-experimental-38dd17ab9",
     "react-scripts": "3.2.0"
   },
